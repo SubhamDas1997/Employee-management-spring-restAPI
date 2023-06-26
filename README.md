@@ -15,6 +15,13 @@ A backend application with APIs for employee management in any generic business:
 List of all the API calls for specific use cases:
   - ROLES
       - Fetch all roles using `/employee-management/roles` as a **GET** request
+      - View a particular role using `/employee-management/roles/${id}` as a **GET** request
       - Create a new role using `/employee-management/roles` as a **POST** request
       - Delete an existing role using `/employee-management/roles/${id}` as a **DELETE** request
-      - View a particular role using `/employee-management/roles/${id}` as a **GET** request
+
+  - USERS
+      - Fetch all users using `/employee-management/users` as a **GET** request
+      - View a particular user using `/employee-management/users/${id}` as a **GET** request
+      - Create a new user using `/employee-management/users` as a **POST** request
+      - Update a user using `/employee-management/users/${id}` as a **PUT** request
+      - Delete an existing user using `/employee-management/users/${id}` as a **DELETE** request
