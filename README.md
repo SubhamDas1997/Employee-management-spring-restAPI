@@ -41,3 +41,6 @@ List of all the API calls for specific use cases:
       - Update any particular employee details using `/employee-management/employees/${id}` as a **PUT** request
       - Delete an existing employee using `/employee-management/employees/${id}` as a **DELETE** request
       - Sort the employess list based on their first name using `/employee-management/employees/sort?direction=${dir}` as a **GET** request
+
+# Tech
+The project makes use of the following dependencies: Spring boot, Spring data jpa, Spring security, Java 1.8, lombok
