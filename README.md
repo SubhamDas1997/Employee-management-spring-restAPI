@@ -11,6 +11,12 @@ A backend application with APIs for employee management in any generic business:
   - View, update, create, delete and sort employee details using appropriate fetch methods
   - Adequate server response messages for all requests
 
+# Background
+Each and every request needs to be authenticated with the correct username and password. Every user needs to have either one of the following roles to be able to send requests:
+  - OWNER - This is the master role which can access all APIs, can create new roles and users for specific use cases and add new employees into the DB
+  - ADMIN - Unable to access neither ROLES nor USER APIs, but can make any change to the employees DB
+  - USER - General role with which a user can view and edit employee details but are forbidden to delete or add new entries. Moreover, has no access to ROLES and USER APIs
+
 # APIs
 List of all the API calls for specific use cases:
   - ROLES
