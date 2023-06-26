@@ -5,7 +5,16 @@
 # Features
 A backend application with APIs for employee management in any generic business:
   - Basic user authentication check for all API calls
-  - Appropriate roles for authorisation of specific calls such as DELETE, POST etc
+  - Specific calls such as DELETE, POST etc requires user to have authority by means of appropriate roles
   - View, create and delete roles using appropriate fetch methods
   - View, update, create and delete user details using appropriate fetch methods
   - View, update, create, delete and sort employee details using appropriate fetch methods
+  - Adequate server response messages for all requests
+
+# APIs
+List of all the API calls for specific use cases:
+  - ROLES
+      - Fetch all roles using `/employee-management/roles` as a **GET** request
+      - Create a new role using `/employee-management/roles` as a **POST** request
+      - Delete an existing role using `/employee-management/roles/${id}` as a **DELETE** request
+      - View a particular role using `/employee-management/roles/${id}` as a **GET** request
