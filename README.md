@@ -1,4 +1,4 @@
-<h1 align="center">Employee management backend 🎞️</h1>
+<h1 align="center">Employee management backend</h1>
 
 ### 🔴 [Project Demo](https://youtu.be/JptAYx8fm8U)
 
